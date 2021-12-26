@@ -1,0 +1,22 @@
+
+
+@media all and (min-width: 0px) and ( max-width: 499px ) {
+	
+	.facebook-footer {
+		display: none;
+	}
+
+	.facbook-body   {
+		display: none;
+	}
+
+	.facebook-header {
+		display: none;
+	}
+
+
+	.facebook-mobile-design {
+		display: block;
+	}
+	
+}

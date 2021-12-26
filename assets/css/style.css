@@ -1,0 +1,346 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family:tahoma;
+}
+
+.facebook-mobile-design {
+	display: none;
+}
+
+input {
+	box-sizing: border-box;
+} 
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 980px;
+	margin: auto;
+}
+
+/*CSS RESET CODE */
+
+.facebook-header {
+	background: linear-gradient(#4C67A1, #3B5998);
+	padding-top: 10px;
+	padding-bottom: 7px;
+}
+
+.facebook-header:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.facebook-header  .logo {
+	width: 60%;
+	float: left;
+	margin-top: 18px;
+
+}
+
+.facebook-header  .login-area {
+	width: 40%;
+	float: left;	
+}
+
+.login-area:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.login1 input,
+.login2 input {
+	display: block;
+	padding: 2px 3px;
+	border: 1px solid #1d2a5b;
+	margin-top: 5px;
+	width: 150px;
+}
+
+.login1,
+.login2,
+.login3 {
+	float: left;
+	margin-right: 10px;
+}
+
+.login1 label,
+.login2 label {
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.login2 a {
+	font-size: 13px;
+	color: #9cb4d8;
+}
+
+.login2 a:hover {
+	text-decoration: underline;
+}
+
+.login3 input {
+	padding: 3px;
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 24px;
+	cursor: pointer;
+}
+
+.login3 input:hover {
+	background-color: #365899;
+	border-color: #29487d;
+}
+
+/* FACEBOOK HEADER STYLE END */
+
+.facbook-body {
+	background: linear-gradient(#FFF, #D3D8E8);
+}
+
+.facbook-body:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+
+.facbook-body .body-left {
+	width: 57%;
+	float: left;
+}
+
+.facbook-body .body-left h2 {
+	color: #0e385f;
+	font-size: 20px;
+	margin-top: 40px;
+	width: 86%;
+}
+
+
+.facbook-body .body-right {
+	width: 43%;
+	float: left;
+
+}
+
+.facbook-body .body-right h1 {
+	font-size: 36px;
+	color: #333;
+	margin-top: 30px;
+}
+
+.facbook-body .body-right h2 {
+	font-size: 19px;
+	color: #1d2129;
+	font-weight: normal;
+	margin: 10px 0px 15px 0px;
+}
+
+.facbook-body .body-right .reg-area {
+	width: 94%;
+}
+
+.facbook-body .body-right .reg-area:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.facbook-body .body-right .reg-area input {
+	width: 100%;
+	font-size: 18px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	margin-bottom: 10px;
+} 
+
+.facbook-body .body-right .reg-area input:nth-child(1) {
+	width: 49%;
+}
+
+.facbook-body .body-right .reg-area input:nth-child(2) {
+	width: 49%;
+	float: right;
+}
+.facbook-body .body-right .birthday:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.facbook-body .body-right .birthday h3{
+	color: #90949c;
+	font-size: 16px;
+}	
+
+.facbook-body .body-right .birthday select {
+	font-size: 13px;
+	padding: 5px;
+	border: 1px solid #ccd0d5;
+	float: left;
+	margin: 10px 0px;
+}
+
+.facbook-body .body-right .birthday a {
+	color: #333;
+	display: inline-block;
+	margin: 15px 0px 0px 5px;
+}
+
+.facbook-body .body-right .gender h3 {
+	color: #90949c;
+	font-size: 16px;
+}
+
+.facbook-body .body-right .gender p {
+	color: #777;
+	font-size: 11px;
+	width: 316px;
+	margin: 15px 0px;
+}
+
+.facbook-body .body-right .gender a {
+	color: #333;
+}
+.facbook-body .body-right .gender p a {
+	color: #385898;
+}
+
+.facbook-body .body-right .gender p a:hover {
+	text-decoration: underline;
+}
+
+.facbook-body .body-right .gender label {
+	font-size: 18px;
+	line-height: 18px;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 0px 10px 0px 3px;
+	color: #1d2129;
+}
+
+.facbook-body .body-right .signup-area p {
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+.facbook-body .body-right .signup-area p a {
+	color: #385898;
+
+
+}
+
+.facbook-body .body-right .signup-area p a:hover {
+	text-decoration: underline;
+}
+
+.facbook-body .body-right .signup-area input {
+	font-size: 19px;
+	font-weight: bold;
+	padding: 7px 60px;
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow: inset 0 1px 1px #a4e388;
+	border: 1px solid;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-radius: 5px;
+	color: #FFF;
+	cursor: pointer;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+.facbook-body .body-right .signup-area input:hover {
+	background: linear-gradient(#79bc64, #578843);
+}
+
+
+.facbook-body .body-right .signup-area input:active {
+	transform: translate(0px, 2px);
+}
+
+/*FACEBOOK BODY STYLE END */
+
+.facebook-footer {
+	padding: 30px 0px;
+}
+
+.facebook-footer .footer-top {
+	padding: 10px 0px;
+	border-bottom: 1px solid #dddfe2;
+}
+
+.facebook-footer .footer-top ul li {
+	display: inline-block;
+}
+
+.facebook-footer .footer-top ul li a {
+	color: #385898;
+	font-size: 12px;
+	padding: 10px 4px;
+}
+
+.facebook-footer .footer-top ul li a:hover {
+	text-decoration: underline;
+}
+
+.facebook-footer .footer-top ul li:first-child a {
+	color: #737373;
+}
+
+.facebook-footer .footer-top ul li:last-child a {
+	color: #4b4f56;
+	border: 1px solid #ccd0d5;
+	display: inline-block;
+	font-size: 12px;
+	padding: 1px 6px;
+}
+
+.facebook-footer .footer-top ul li:last-child a:hover {
+	background: #ebedf0;
+}
+
+.facebook-footer .footer-middle {
+	padding: 10px 0px;
+}
+
+.facebook-footer .footer-middle ul li {
+	display: inline-block;
+}
+
+.facebook-footer .footer-middle ul li a {
+	color: #385898;
+	font-size: 12px;
+	padding: 10px 8px;
+}
+
+.facebook-footer .footer-bottom p {
+	font-size: 11px;
+	color: #737373;
+	padding-left: 8px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
